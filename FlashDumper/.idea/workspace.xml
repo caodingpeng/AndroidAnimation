@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="273cb7e9-c3b0-4faa-8e26-5e72733689f1" name="Default" comment="" />
+    <list default="true" id="273cb7e9-c3b0-4faa-8e26-5e72733689f1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CommonLib/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CommonLib/.settings/com.powerflasher.fdt.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CommonLib/.settings/com.powerflasher.fdt.core.formatter.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CommonLib/.settings/com.powerflasher.fdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CommonLib/.settings/launch/CommonLib.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CommonLib/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CommonLib/CommonLib.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CommonLib/src/com/juicebeer/PluginManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CommonLib/src/com/juicebeer/plugin/IPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/.settings/com.powerflasher.fdt.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/.settings/com.powerflasher.fdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/.settings/launch/FlashCSPlugin-FlashCSPlugin.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/FlashCSPlugin.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/FlashCSPlugin.mxi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/PluginUpdateInfo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/flashdump.jsfl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/lib/flexunit-4.1.0-8-as3_4.1.0.16076.swc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/lib/flexunit-4.1.0-8-flex_4.1.0.16076.swc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/lib/flexunit-aircilistener-4.1.0-8-4.1.0.16076.swc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/lib/flexunit-cilistener-4.1.0-8-4.1.0.16076.swc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/lib/flexunit-uilistener-4.1.0-8-4.1.0.16076.swc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../FlashCSPlugin/src/FlashCSPlugin.mxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../UILibrary/UILibrary.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../UILibrary/src/com/juicebeer/Button.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../flashdump.komodoproject" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FlashDumper-app.xml" afterPath="$PROJECT_DIR$/src/FlashDumper-app.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlashDumper.iml" afterPath="$PROJECT_DIR$/FlashDumper.iml" />
+    </list>
     <ignored path="FlashDumper.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="273cb7e9-c3b0-4faa-8e26-5e72733689f1" time="1366099043292" ignored="false" />
+    <file path="/fragment.js2" changelist="273cb7e9-c3b0-4faa-8e26-5e72733689f1" time="1382517934820" ignored="false" />
     <file path="/a.as" changelist="273cb7e9-c3b0-4faa-8e26-5e72733689f1" time="1366008861711" ignored="false" />
     <file path="/IPlugin.as" changelist="273cb7e9-c3b0-4faa-8e26-5e72733689f1" time="1366010813297" ignored="false" />
     <file path="/PluginManager.as" changelist="273cb7e9-c3b0-4faa-8e26-5e72733689f1" time="1366013054469" ignored="false" />
-    <file path="/Dummy.txt" changelist="273cb7e9-c3b0-4faa-8e26-5e72733689f1" time="1366098957599" ignored="false" />
+    <file path="/Dummy.txt" changelist="273cb7e9-c3b0-4faa-8e26-5e72733689f1" time="1382517013631" ignored="false" />
     <file path="/FlashDumper.mxml" changelist="273cb7e9-c3b0-4faa-8e26-5e72733689f1" time="1366013277672" ignored="false" />
     <file path="/flashdump.jsfl" changelist="273cb7e9-c3b0-4faa-8e26-5e72733689f1" time="1366016824559" ignored="false" />
     <file path="/FlashCSPlugin.mxi" changelist="273cb7e9-c3b0-4faa-8e26-5e72733689f1" time="1366080943560" ignored="false" />
@@ -33,6 +63,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -69,7 +100,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -79,55 +109,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PluginManager.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../CommonLib/src/com/juicebeer/PluginManager.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="81" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FlashDumper.mxml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FlashDumper.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="16" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="13" column="22" selection-start="737" selection-end="737" vertical-scroll-proportion="-8.125">
+              <folding>
+                <marker date="1382516607000" expanded="false" signature="778:1718" placeholder="..." />
+                <marker date="1382516607000" expanded="true" signature="1966:2286" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="1980:2046" placeholder="//..." />
+                <marker date="1382516607000" expanded="true" signature="2366:2460" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="2538:3010" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="3072:3986" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="3655:3927" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="4044:4100" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="4160:4236" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="4348:4582" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="4659:4987" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="4737:4790" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="5045:5204" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="5257:5402" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="5497:5559" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="5861:6077" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="5951:6072" placeholder="{...}" />
+                <marker date="1382516607000" expanded="false" signature="8601:8705" placeholder="..." />
+                <marker date="1382516607000" expanded="true" signature="8824:9125" placeholder="{...}" />
+                <marker date="1382516607000" expanded="false" signature="10199:10842" placeholder="..." />
+                <marker date="1382516607000" expanded="true" signature="10946:18534" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="11069:17815" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="12486:12703" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="13095:13480" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="13239:13430" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="13543:13994" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="13652:13805" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="13811:13944" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="14000:14281" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="14089:14230" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="14764:14916" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="15583:15715" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="16057:16274" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="17324:17451" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="17534:17665" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="17832:18492" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="18632:19201" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="19043:19159" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="19301:19453" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="19555:19890" placeholder="{...}" />
+                <marker date="1382516607000" expanded="true" signature="19620:19733" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlashCSPlugin.mxi" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FlashCSPlugin/FlashCSPlugin.mxi">
+      <file leaf-file-name="FlashDumper-app.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FlashDumper-app.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="19" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonLib.iml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../CommonLib/CommonLib.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.4785276">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PluginUpdateInfo.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FlashCSPlugin/PluginUpdateInfo.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="29" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IModuleInfo.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/flex_sdk_4.6/frameworks/projects/framework/src/mx/modules/IModuleInfo.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="17" selection-start="2789" selection-end="2789" vertical-scroll-proportion="0.0">
+            <state line="16" column="52" selection-start="714" selection-end="714" vertical-scroll-proportion="0.2398524">
               <folding />
             </state>
           </provider>
@@ -158,13 +194,15 @@
         <option value="$PROJECT_DIR$/../FlashCSPlugin/FlashCSPlugin.mxi" />
         <option value="$PROJECT_DIR$/../FlashCSPlugin/plugin_update_info.xml" />
         <option value="$PROJECT_DIR$/../FlashCSPlugin/src/FlashCSPlugin.mxml" />
+        <option value="$PROJECT_DIR$/src/FlashDumper-app.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="974" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-342" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -206,10 +244,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDump" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="FlashDumper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -218,10 +252,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="FlashDumper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDump" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FlashDumper" />
@@ -229,126 +259,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDumper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDump" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDumper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juicebeer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDumper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDump" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDumper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juicebeer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="component" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDumper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDump" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashCSPlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDumper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDump" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashCSPlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDumper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlashDump" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/FlashDumper-app.xml" />
     <property name="project.structure.side.proportion" value="0.14020857" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -364,7 +302,7 @@
       <recent name="com.juicebeer" />
     </key>
   </component>
-  <component name="RunManager" selected="Flash App.FlashCSPlugin">
+  <component name="RunManager" selected="Flash App.FlashDumper">
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -414,6 +352,27 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -448,96 +407,32 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <configuration default="false" name="FlashDumper" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="FlashDumper" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="FlashDumper" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <RunnerSettings RunnerId="FlexDebugRunner" />
-      <RunnerSettings RunnerId="FlexRunner" />
-      <ConfigurationWrapper RunnerId="FlexDebugRunner" />
-      <ConfigurationWrapper RunnerId="FlexRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FlashCSPlugin" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="FlashCSPlugin" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="FlashCSPlugin" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <RunnerSettings RunnerId="FlexDebugRunner" />
-      <ConfigurationWrapper RunnerId="FlexDebugRunner" />
-      <method />
-    </configuration>
-    <list size="2">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Flash App.FlashDumper" />
-      <item index="1" class="java.lang.String" itemvalue="Flash App.FlashCSPlugin" />
     </list>
-    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="273cb7e9-c3b0-4faa-8e26-5e72733689f1" name="Default" comment="" />
@@ -547,29 +442,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="974" extended-state="0" />
+    <frame x="-1920" y="-342" width="1920" height="1200" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="iSnippet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39929742" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2212963" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32554257" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24938725" sideWeight="0.6709602" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13500534" sideWeight="0.7787037" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="iSnippet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827103" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -639,60 +534,52 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/flex_sdk_4.6/frameworks/projects/framework/src/mx/modules/ModuleManager.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="56" selection-start="2000" selection-end="2000" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/flex_sdk_4.6/frameworks/projects/framework/src/mx/modules/IModuleInfo.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="17" selection-start="2789" selection-end="2789" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CommonLib/src/com/juicebeer/PluginManager.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/flex_sdk_4.6/frameworks/projects/framework/src/mx/modules/ModuleManager.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CommonLib/src/com/juicebeer/plugin/IPlugin.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/flex_sdk_4.6/frameworks/projects/framework/src/mx/modules/IModuleInfo.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="17" selection-start="2789" selection-end="2789" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CommonLib/src/com/juicebeer/PluginManager.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="81" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FlashCSPlugin/PluginUpdateInfo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FlashDumper.mxml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="16" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1382516607000" expanded="false" signature="778:1718" placeholder="..." />
+            <marker date="1382516607000" expanded="true" signature="1966:2286" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="1980:2046" placeholder="//..." />
+            <marker date="1382516607000" expanded="true" signature="2366:2460" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="2538:3010" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="3072:3986" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="3655:3927" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="4044:4100" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="4160:4236" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="4348:4582" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="4659:4987" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="4737:4790" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="5045:5204" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="5257:5402" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="5497:5559" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="5861:6077" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="5951:6072" placeholder="{...}" />
+            <marker date="1382516607000" expanded="false" signature="8601:8705" placeholder="..." />
+            <marker date="1382516607000" expanded="true" signature="8824:9125" placeholder="{...}" />
+            <marker date="1382516607000" expanded="false" signature="10199:10842" placeholder="..." />
+            <marker date="1382516607000" expanded="true" signature="10946:18534" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="11069:17815" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="12486:12703" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="13095:13480" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="13239:13430" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="13543:13994" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="13652:13805" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="13811:13944" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="14000:14281" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="14089:14230" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="14764:14916" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="15583:15715" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="16057:16274" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="17324:17451" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="17534:17665" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="17832:18492" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="18632:19201" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="19043:19159" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="19301:19453" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="19555:19890" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="19620:19733" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -701,38 +588,58 @@
         <state line="14" column="78" selection-start="436" selection-end="436" vertical-scroll-proportion="0.13043478" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CommonLib/src/com/juicebeer/plugin/IPlugin.as">
+    <entry file="file://$PROJECT_DIR$/src/FlashDumper.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.24223602" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/flex_sdk_4.6/frameworks/projects/framework/src/mx/modules/ModuleManager.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="56" selection-start="2000" selection-end="2000" vertical-scroll-proportion="0.018115941" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FlashCSPlugin/flashdump.jsfl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="0.41666666" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FlashCSPlugin/src/FlashCSPlugin.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="291" selection-end="291" vertical-scroll-proportion="0.1119403">
-          <folding />
+        <state line="13" column="22" selection-start="737" selection-end="737" vertical-scroll-proportion="-8.125">
+          <folding>
+            <marker date="1382516607000" expanded="false" signature="778:1718" placeholder="..." />
+            <marker date="1382516607000" expanded="true" signature="1966:2286" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="1980:2046" placeholder="//..." />
+            <marker date="1382516607000" expanded="true" signature="2366:2460" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="2538:3010" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="3072:3986" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="3655:3927" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="4044:4100" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="4160:4236" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="4348:4582" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="4659:4987" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="4737:4790" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="5045:5204" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="5257:5402" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="5497:5559" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="5861:6077" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="5951:6072" placeholder="{...}" />
+            <marker date="1382516607000" expanded="false" signature="8601:8705" placeholder="..." />
+            <marker date="1382516607000" expanded="true" signature="8824:9125" placeholder="{...}" />
+            <marker date="1382516607000" expanded="false" signature="10199:10842" placeholder="..." />
+            <marker date="1382516607000" expanded="true" signature="10946:18534" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="11069:17815" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="12486:12703" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="13095:13480" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="13239:13430" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="13543:13994" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="13652:13805" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="13811:13944" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="14000:14281" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="14089:14230" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="14764:14916" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="15583:15715" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="16057:16274" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="17324:17451" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="17534:17665" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="17832:18492" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="18632:19201" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="19043:19159" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="19301:19453" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="19555:19890" placeholder="{...}" />
+            <marker date="1382516607000" expanded="true" signature="19620:19733" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FlashCSPlugin/FlashCSPlugin.mxi">
+    <entry file="file://$PROJECT_DIR$/src/FlashDumper-app.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CommonLib/CommonLib.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.4785276">
+        <state line="16" column="52" selection-start="714" selection-end="714" vertical-scroll-proportion="0.2398524">
           <folding />
         </state>
       </provider>
@@ -770,7 +677,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.14020857" />
               </list>
             </option>
           </splitter-proportions>
@@ -778,7 +685,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>air3.4</last-edited>
+          <last-edited>FlexSdk</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -790,7 +697,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>FlashDumpCommon|CommonLib|FlashDump</last-edited>
+          <last-edited>FlashDumper|FlashDumper</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
