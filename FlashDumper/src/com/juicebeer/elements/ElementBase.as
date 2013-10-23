@@ -63,9 +63,7 @@ package com.juicebeer.elements
 			this.opacity=obj.alpha;
 			this.rotation=obj.rotation;
 			this.name=this.getVariableName();
-			
-			Console.log('');
-			Console.log('Exporting '+this.type+' with name '+this.getTrueName());
+
 
             this.beforeValidate();
 			this.validate();
@@ -103,7 +101,6 @@ package com.juicebeer.elements
 				{
 					return getFullImgNames(3,this.nameParams);
 				}else{
-					Console.error('Shared Image has no name, use default name "error"');
 					this.throwError("Shared Image has no name");
 					return "error_"+getTimer().toString();
 				}

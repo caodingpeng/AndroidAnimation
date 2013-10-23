@@ -32,13 +32,11 @@ import flash.filesystem.File;
 		public var swf:DisplayObjectContainer;
 		public var logArea:TextArea;
 
-        public static var needExportATFiOS:Boolean;
-        public static var needExportATFAndroid:Boolean;
-		
 		public static var basePath:String="export/";
+        public static var swfName:String="";
         public static var sheetConfig:Object=loadJsonFile('sheet_config.json');
 		public var currentBasePath:String;
-        public var currentUIName:String;
+
         public static var findShareFile:Boolean=false;
 		
 		public var errorDisplayObjectSnapshot:BitmapData;
@@ -143,123 +141,6 @@ import flash.filesystem.File;
 			Console.error(event.toString());
 		}
 		
-		public static function hideLabels(obj:DisplayObject):void
-		{	
-			var tlf:TLFTextField;
-			if((obj is TLFTextField) || (obj is TextLine) || (obj is TextField))
-			{
-				//tlf=obj as TLFTextField;
-				obj.alpha=0;
-				obj.visible=false;
-				
-				//textfield maybe wrapped with movieclip
-				if(obj.parent && obj.parent.numChildren==1)
-				{
-					obj.parent.visible=false;
-				}
-				
-				return;
-			}else if(obj is DisplayObjectContainer)
-			{
-				var doc:DisplayObjectContainer= obj as DisplayObjectContainer;
-				for(var i:int=0;i< doc.numChildren;i++)
-				{
-					hideLabels(doc.getChildAt(i));
-				}
-			}
-		}
-		
-		public static function drawBitmapRecursive(root:DisplayObject,mc:DisplayObject,bitmapData:BitmapData):BitmapData
-		{
-			if(mc is DisplayObjectContainer && mc.visible)
-			{
-				var doc:DisplayObjectContainer=mc as DisplayObjectContainer;
-				for(var i:int=0;i<doc.numChildren;i++)
-				{
-					drawBitmapRecursive(root,doc.getChildAt(i),bitmapData);
-				}
-			}else{
-				
-				if(mc.visible==false)
-				{
-					return bitmapData;
-				}
-				var offset:Rectangle=mc.getBounds(mc);
-				var rect:Rectangle=mc.getBounds(root);
-				//point=root.globalToLocal(point);
-				var matrix:Matrix=new Matrix();
-				
-				var scaleX:Number=mc.scaleX;
-				var scaleY:Number=mc.scaleY;
-				
-				var ds:DisplayObject=mc;
-				ds.cacheAsBitmap=true;
-				
-				while(ds!=root){
-					ds=ds.parent;
-					scaleX*=ds.scaleX;
-					scaleY*=ds.scaleY;
-				}
-				
-				//Console.log(mc.name+" scaleX:"+mc.scaleX+" scaleY:"+mc.scaleY+" "+scaleX+" offsetX"+offset.x+" offsetY:"+offset.y+" ");
-				//matrix.scale(mc.scaleX,mc.scaleY);
-				//matrix.translate(point.x-(offset.x*mc.scaleX),point.y-(offset.y*mc.scaleY));
-				
-				matrix.scale(scaleX,scaleY);
-				matrix.translate(rect.x-(offset.x*scaleX),rect.y-(offset.y*scaleY));
-				
-				bitmapData.draw(mc,matrix,null,null,null,true);
-			}
-			
-			return bitmapData;
-		}
-		public static function drawBitmap(mc:DisplayObject):BitmapData
-		{
-			var width:int=mc.width >= 1?mc.width:1;
-			var height:int=mc.height >= 1 ? mc.height:1;
-			var bitmapData:BitmapData=new BitmapData(width,height,true,0x00FFFFFF);
-			bitmapData.draw(mc,null,null,null,null,true);
-			return bitmapData;
-		}
-		public static function drawBitmapAndSave(mc:DisplayObject,fileName:String,isImageShared:Boolean=false,path:String=null,rect:Rectangle=null):void
-		{
-			//var bitmapData:BitmapData=drawBitmap(mc);
-			var bitmapData:BitmapData;
-			if(rect==null)
-			{
-				bitmapData=new BitmapData(mc.width,mc.height,true,0x00FFFFFF);
-			}else{
-				bitmapData=new BitmapData(rect.width,rect.height,true,0x00FFFFFF);
-			}
-
-			//drawBitmapRecursive(mc,mc,bitmapData);
-			
-			bitmapData.draw(mc,null,null,null,null,true);
-			
-			var encoder:PNGEncoder=new PNGEncoder();
-			var byteArray:ByteArray = encoder.encode(bitmapData);
-			
-			if(path==null)
-			{
-				path=Helper.instance().currentBasePath;
-			}
-			if(isImageShared)
-			{
-                //if is not share library images,
-                // return directly because sharelin has already has this image
-                if(Helper.instance().currentUIName.indexOf('share') != 0)
-                {
-                    findShareFile=true;
-                    return;
-                }
-
-                //wo don't need to export shared images since all share images
-                //has exported to a shared texture
-				path+='/share';
-			}
-			Helper.saveBinaryToFile(byteArray,fileName,path);
-		}
-		
 		public static function saveStringToFile(str:String,fileName:String,path:String=null):void
 		{
 			var bytearray:ByteArray=new ByteArray();
@@ -269,19 +150,8 @@ import flash.filesystem.File;
 		}
 		public static function saveBinaryToFile(byteArray:ByteArray,fileName:String,path:String=null):void
 		{
-			if(path==null)
-			{
-				path=Helper.instance().currentBasePath;
-			}
-			
-			var fpath:File=File.userDirectory.resolvePath(path);
-			if(fpath.exists==false)
-			{
-				fpath.createDirectory();
-			}
-			
 			var fs:FileStream=new FileStream();
-			var file:File=File.userDirectory.resolvePath(path+'/'+fileName);
+			var file:File=File.userDirectory.resolvePath(fileName);
 			fs.open(file,FileMode.WRITE);
 			fs.writeBytes(byteArray);
 			fs.close();
